@@ -1,11 +1,14 @@
 class Main {
   public static void main(String[] args) {
    
-   String[] mrBarry = new String [12];
-   String[] msBenny = {"Alan","Ben","Dana","Ela","Gina","Hellen","Junior","Kathy","victor","Mark","Oliva","Ruth"};
-  for(int index = 0; index < 10; index ++){
+   String[] mrBarry = new String [10];
+   String[] msBenny = {"","","","","","","",""};   
+   // names for the roster
+  for(int index = 0; index < 8; index ++){
+   // the for loop
+   
     mrBarry[index] = msBenny[index];
-
+   //combines array 1 with array 2
     System.out.println(mrBarry[index]);
   } 
   
